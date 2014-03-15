@@ -66,9 +66,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SasPolicy\DefaultSasPolicy.cs" />
+    <Compile Include="Blobs\SasBlobBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tables\TableStorage.cs" />
     <Compile Include="Tables\TableStorageQuery.cs" />
+    <Compile Include="Time\UtcTime.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
